@@ -10,18 +10,15 @@ import 'normalize.css';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
-
+const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/mp2">
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
 
-
-// Optional CRA performance hook
 reportWebVitals();
 
 
