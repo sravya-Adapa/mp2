@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation, useNavigate, useParams, Link } from 'react-router-dom';
 import type { Artwork } from './types/art';
 import { fetchArtwork, toCard } from './services/aic';
